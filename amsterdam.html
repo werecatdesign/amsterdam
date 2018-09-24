@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href ="amsterdam.css">
+        <title>Image Guessing</title>
+        <script src = "amsterdam.js" defer></script>
+    </head>
+    
+    <body>
+        <div class = "container">
+            <div class = "introclass" id = "introclass">
+                <h1>Find the city hidden behind the black box!</h1>
+                <p>With each letter that you type in correctly in one of the grey boxes below, one more part of an image from the city appears from the black box. Keep guessing until the whole image is visible.
+                </p>
+            </div>
+            <div class = "picdiv">
+                <div class = "imagecontainer">
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_1.jpg" alt = "Part 1">
+                    </div>
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_4.jpg" alt = "Part 4">
+                    </div>
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_7.jpg" alt = "Part 7">
+                    </div>
+                </div>
+                <div class = "imagecontainer">
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_2.jpg" alt = "Part 2">
+                    </div>
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_5.jpg" alt = "Part 5">
+                    </div>
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_8.jpg" alt = "Part 8">
+                    </div>
+                </div>
+                <div class = "imagecontainer">
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_3.jpg" alt = "Part 3">
+                    </div>                   
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_6.jpg" alt = "Part 6">
+                    </div>                   
+                    <div class = "fractioncontainer">
+                        <img src="images/amsterdam_9.jpg" alt = "Part 9">
+                    </div>
+                </div>
+            </div>
+            <div class = "textdiv">
+                <div class = "textcontainer">
+                    <div class = "lettercontainer">
+                        <h1>A</h1>
+                        <form>
+                            <p>Letter 1:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form> 
+                    </div>                
+                    <div class = "lettercontainer">
+                        <h1>M</h1>
+                        <form>
+                            <p>Letter 2:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>S</h1>
+                        <form>
+                            <p>Letter 3:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>T</h1>
+                        <form>
+                            <p>Letter 4:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>E</h1>
+                        <form>
+                            <p>Letter 5:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>R</h1>
+                        <form>
+                            <p>Letter 6:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>D</h1>
+                        <form>
+                            <p>Letter 7:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>A</h1>
+                        <form>
+                            <p>Letter 8:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                    <div class = "lettercontainer">
+                        <h1>M</h1>
+                        <form>
+                            <p>Letter 9:<br>
+                                <input type="text" class = "letterinput" onkeyup = "refreshPage()">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
